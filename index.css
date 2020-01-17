@@ -44,7 +44,7 @@ body {
   line-height: 1.2;
   color: #0f0f0f;
   background-color: #fff;
-  overflow-x: hidden;
+  overflow-x: inherit;
 }
 
 chapters-list {
