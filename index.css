@@ -5,7 +5,23 @@
   box-sizing: border-box;
 }
 
-body,html {
-    height: 100%;
-    color: blue;
+@font-face {
+  font-style: normal;
+  font-weight: normal;
+  font-family: 'GoodSans-Regular';
+  src: url(../fonts/GoodSans-Regular.woff) format("woff"), url(../fonts/GoodSans-Regular.otf) format("opentype");
+}
+
+html {
+  width: 100%;
+}
+
+body {
+  width: 100%;
+  font-family: 'GoodSans-Regular';
+  font-size: 2rem;
+  line-height: 1.4;
+  color: #0f0f0f;
+  background-color: #fff;
+  overflow-x: hidden;
 }
