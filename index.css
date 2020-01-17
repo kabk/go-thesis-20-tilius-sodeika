@@ -9,28 +9,28 @@
   font-style: normal;
   font-weight: normal;
   font-family: 'GoodSans-Regular';
-  src: url(../typefaces/GoodSans-Regular.woff) format("woff"), url(../typefaces/GoodSans-Regular.otf) format("opentype");
+  src: url(typefaces/GoodSans-Regular.woff) format("woff"), url(../typefaces/GoodSans-Regular.otf) format("opentype");
 }
 
 @font-face {
   font-style: normal;
   font-weight: normal;
   font-family: 'cirka-light';
-  src: url(../typefaces/cirka-light.woff) format("woff"), url(../typefaces/cirka-light.otf) format("opentype");
+  src: url(typefaces/cirka-light.woff) format("woff"), url(../typefaces/cirka-light.otf) format("opentype");
 }
 
 @font-face {
   font-style: normal;
   font-weight: normal;
   font-family: 'CivilitateTrialV0.2-Hairline';
-  src: url(../typefaces/CivilitateTrialV0.2-Hairline.woff) format("woff"), url(../typefaces/CivilitateTrialV0.2-Hairline.otf) format("opentype");
+  src: url(typefaces/CivilitateTrialV0.2-Hairline.woff) format("woff"), url(../typefaces/CivilitateTrialV0.2-Hairline.otf) format("opentype");
 }
 
 @font-face {
   font-style: normal;
   font-weight: normal;
   font-family: 'Sword2018';
-  src: url(../typefaces/Sword2018.woff) format("woff"), url(../typefaces/Sword2018.otf) format("opentype");
+  src: url(typefaces/Sword2018.woff) format("woff"), url(../typefaces/Sword2018.otf) format("opentype");
 }
 
 html {

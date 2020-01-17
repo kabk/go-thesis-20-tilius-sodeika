@@ -103,7 +103,7 @@ if (document.images) {
 function scrollFadeOut(){
   console.log("fadeout")
   scrollCounter = 0
-  $('#backgroundDiv').animate({opacity: 1}, fadeOutTime)
+  $('#backgroundDiv').animate({opacity: 0.2}, fadeOutTime)
   $('.text').animate({opacity: 1}, fadeOutTime)
 
 }
@@ -111,7 +111,7 @@ function scrollFadeIn(){
     $("#backgroundDiv").finish();
     $(".text").finish();
     $('#backgroundDiv').animate({opacity: 1}, fadeInTime)
-    $('.text').animate({opacity: 1}, fadeInTime)
+    $('.text').animate({opacity: 0.1}, fadeInTime)
 }
 function updateBg(){
   $('#progress').css('height', barHeight)
