@@ -35,6 +35,7 @@
 
 html {
   width: 100%;
+
 }
 
 body {
@@ -223,4 +224,29 @@ mark {
   color: #0f0f0f;
   background-color: #fff;
   overflow-x: hidden;
+}
+
+#backgroundDiv {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  height: 100vh;
+  width: 100vw;
+  background-image: url("img/rende_00000.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  z-index: -9999;
+  opacity:0.2;
+}
+
+#progress {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  height: 0px;
+  width: 10px;
+  background-color: #bcae9a;
+  z-index: 9999;
 }
