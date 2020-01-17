@@ -83,7 +83,7 @@ var tapBool = true
 
 //IMAGE PRELOAD------------------------------------------
 if (document.images) {
-  for (var i = 0; i < 432; i++) {
+  for (var i = 0; i < 374; i++) {
     if(i<10){
       zerosI = "0000"
     }
