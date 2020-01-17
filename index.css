@@ -9,7 +9,7 @@
   font-style: normal;
   font-weight: normal;
   font-family: 'GoodSans-Regular';
-  src: url(../fonts/GoodSans-Regular.woff) format("woff"), url(../fonts/GoodSans-Regular.otf) format("opentype");
+  src: url(../typefaces/GoodSans-Regular.woff) format("woff"), url(../typefaces/GoodSans-Regular.otf) format("opentype");
 }
 
 html {
