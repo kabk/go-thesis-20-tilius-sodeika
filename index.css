@@ -107,8 +107,13 @@ nav h1 {
   font-family: 'cirka-light';
 }
 
+.thesis-title2 {
+  font-family: 'sword2018';
+}
+
 .wrapper .intro .thesis-title {
   position: absolute;
+  font-family: 'cirka-light';
   top: -9vw;
   left: -0.6%;
   right: 0;
@@ -149,6 +154,12 @@ nav h1 {
   line-height: 0.924;
 }
 
+@media only screen and (min-width: 900px) {
+  .wrapper .container .chapter .chapter-title {
+    font-size: 12rem;
+  }
+}
+
 .wrapper .container .chapter .imageWrapper {
   padding-left: 3.92rem;
   padding-right: 3.92rem;
@@ -156,9 +167,45 @@ nav h1 {
   max-width: 900px;
 }
 
-textarea {
-    resize: vertical;
+.wrapper img {
+  width: 100%;
+  background-color: #0f0f0f;
 }
+
+.wrapper iframe {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: #0f0f0f;
+}
+
+@media only screen and (max-width: 900px) {
+  html {
+    font-size: 10px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  html {
+    font-size: 9px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  html {
+    font-size: 8px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  html {
+    font-size: 6px;
+  }
+}
+
+
 
 #menu {
   font-family: 'cirka-light';
