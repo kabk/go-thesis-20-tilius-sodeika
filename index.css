@@ -19,6 +19,20 @@
   src: url(../typefaces/cirka-light.woff) format("woff"), url(../typefaces/cirka-light.otf) format("opentype");
 }
 
+@font-face {
+  font-style: normal;
+  font-weight: normal;
+  font-family: 'CivilitateTrialV0.2-Hairline';
+  src: url(../typefaces/CivilitateTrialV0.2-Hairline.woff) format("woff"), url(../typefaces/CivilitateTrialV0.2-Hairline.otf) format("opentype");
+}
+
+@font-face {
+  font-style: normal;
+  font-weight: normal;
+  font-family: 'cirka-light';
+  src: url(../typefaces/cirka-light.woff) format("woff"), url(../typefaces/cirka-light.otf) format("opentype");
+}
+
 html {
   width: 100%;
 }
@@ -57,6 +71,15 @@ textarea {
 
 #menu {
   font-family: 'cirka-light';
+  font-size: 2rem;
+  line-height: 1.6;
+  color: #0f0f0f;
+  background-color: #fff;
+  overflow-x: hidden;
+}
+
+mark {
+  font-family: 'CivilitateTrialV0.2-Hairline';
   font-size: 2rem;
   line-height: 1.6;
   color: #0f0f0f;
