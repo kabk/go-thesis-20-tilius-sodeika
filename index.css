@@ -121,6 +121,40 @@ nav h1 {
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+.wrapper .menu {
+  padding-bottom: 2.8rem;
+  padding-left: 3.92rem;
+  padding-right: 3.92rem;
+}
+
+.wrapper .menu .chapters-list li {
+  display: inline-block;
+  margin-right: 1em;
+}
+
+.wrapper .menu .chapters-list li:last-child {
+  margin-right: 0;
+}
+
+.wrapper .container {
+  overflow-x: hidden;
+}
+
+.wrapper .container .chapter .chapter-title {
+  margin-top: 2.8rem;
+  margin-bottom: 1.4rem;
+  font-size: 12vw;
+  line-height: 0.924;
+}
+
+.wrapper .container .chapter .imageWrapper {
+  padding-left: 3.92rem;
+  padding-right: 3.92rem;
+  margin: auto;
+  max-width: 900px;
+}
 
 textarea {
     resize: vertical;
