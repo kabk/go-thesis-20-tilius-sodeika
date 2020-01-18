@@ -188,6 +188,18 @@ nav h1 {
   background-color: #0f0f0f;
 }
 
+.wrapper span:hover {
+  cursor: pointer;
+}
+
+.wrapper p {
+  text-indent: 3.92rem;
+}
+
+.wrapper p:first-of-type {
+  text-indent: 0;
+}
+
 @media only screen and (max-width: 900px) {
   html {
     font-size: 10px;
@@ -227,8 +239,8 @@ nav h1 {
 
 mark {
   font-family: 'CivilitateTrialV0.2-Hairline';
-  font-size: 2rem;
-  line-height: 1.2;
+  font-size: inherit;
+  line-height: inherit;
   color: #000000;
   background: none;
   overflow-x: hidden;
