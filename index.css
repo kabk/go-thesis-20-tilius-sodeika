@@ -214,7 +214,7 @@ nav h1 {
   font-size: 2rem;
   line-height: 1.2;
   color: #0f0f0f;
-  background-color: #fff;
+  /* background-color: #fff; */
   overflow-x: hidden;
 }
 
