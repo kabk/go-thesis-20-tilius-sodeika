@@ -232,14 +232,14 @@ mark {
   top: 0px;
   left: 0px;
   height: 100vh;
-  width: 100vw;
+  width: 100%;
   background-image: url("img/rende_00000.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
   z-index: -9999;
-  opacity:0.2;
+  /* opacity:1; */
 }
 
 #progress {
