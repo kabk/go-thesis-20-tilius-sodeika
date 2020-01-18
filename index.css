@@ -126,7 +126,7 @@ nav h1 {
   /* Color fallback */
   color: #fff;
   background-clip: text;
-  -webkit-background-clip: text;
+  -webkit-background-clip: #000000;
   /* -webkit-text-fill-color: transparent; */
 }
 
