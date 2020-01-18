@@ -15,6 +15,14 @@
 @font-face {
   font-style: normal;
   font-weight: normal;
+  font-family: 'GoodSans-Medium';
+  src: url(typefaces/GoodSans-Medium.woff) format("woff"), url(../typefaces/GoodSans-Medium.otf) format("opentype");
+}
+
+
+@font-face {
+  font-style: normal;
+  font-weight: normal;
   font-family: 'cirka-light';
   src: url(typefaces/cirka-light.woff) format("woff"), url(../typefaces/cirka-light.otf) format("opentype");
 }
@@ -79,6 +87,12 @@ a:visited {
 
 nav h1 {
 
+}
+
+figcaption {
+  font-size: 1rem;
+  font-family: 'GoodSans-Medium';
+  opacity: 0.8;
 }
 
 .wrapper {
