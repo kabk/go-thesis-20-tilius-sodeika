@@ -45,7 +45,7 @@ body {
   font-size: 2rem;
   line-height: 1.2;
   color: #0f0f0f;
-  background: none;
+  background-color: inherit;
   overflow-x: inherit;
 }
 
