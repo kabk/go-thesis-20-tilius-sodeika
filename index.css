@@ -45,7 +45,7 @@ body {
   font-size: 2rem;
   line-height: 1.2;
   color: #0f0f0f;
-  background-color: #fff;
+  background-color: none;
   overflow-x: inherit;
 }
 
@@ -54,7 +54,7 @@ chapters-list {
   font-size: 2rem;
   line-height: 1.6;
   color: #0f0f0f;
-  background-color: #fff;
+  background-color: none;
   overflow-x: hidden;
 }
 
@@ -119,12 +119,12 @@ nav h1 {
   top: -9vw;
   left: -0.6%;
   right: 0;
-  font-size: 20vw;
+  font-size: 25vw;
   letter-spacing: -1vw;
   /* -webkit-text-stroke: 2px #000; */
   background-size: 100%;
   /* Color fallback */
-  color: #fff;
+  color: #000000;
   background-clip: text;
   -webkit-background-clip: text;
   /* -webkit-text-fill-color: transparent; */
