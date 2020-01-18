@@ -111,14 +111,14 @@ nav h1 {
 }
 
 .thesis-title2 {
-  position: absolute;
+  position: relative;
   font-family: 'sword2018';
   top: -9vw;
   color: #ffefae;
 }
 
 .wrapper .intro .thesis-title .thesis-title2 {
-  position: relative;
+  position: absolute;
   /* font-family: 'cirka-light'; */
   top: -9vw;
   left: -0.6%;
