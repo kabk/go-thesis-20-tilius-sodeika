@@ -222,8 +222,8 @@ mark {
   font-family: 'CivilitateTrialV0.2-Hairline';
   font-size: 2rem;
   line-height: 1.2;
-  color: #0f0f0f;
-  background-color: #fff;
+  color: #000000;
+  background: none;
   overflow-x: hidden;
 }
 
