@@ -125,7 +125,7 @@ nav h1 {
   background-size: 100%;
   /* Color fallback */
   color: #fff;
-  background-clip: border-box;
+  background-clip: text;
   -webkit-background-clip: text;
   /* -webkit-text-fill-color: transparent; */
 }
