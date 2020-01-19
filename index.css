@@ -51,7 +51,7 @@ body {
   width: 100%;
   font-family: 'GoodSans-Regular';
   font-size: 1.5rem;
-  line-height: 1.1;
+  line-height: 1.2;
   color: #0f0f0f;
   background-color: inherit;
   overflow-x: inherit;
@@ -100,7 +100,7 @@ figcaption {
 figure {
   padding-top: 1vw;
   padding-bottom: 1vw;
-  
+
 }
 
 .wrapper {
