@@ -94,11 +94,13 @@ figcaption {
   font-family: 'GoodSans-Medium';
   opacity: 0.8;
   padding-top: 0.2vw;
+  padding-left: 0.2vw;
 }
 
 figure {
   padding-top: 1vw;
   padding-bottom: 1vw;
+  
 }
 
 .wrapper {
