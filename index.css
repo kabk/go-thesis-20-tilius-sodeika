@@ -116,7 +116,7 @@ figure {
 .wrapper nav {
   margin: auto;
   padding-left: 3.80rem;
-  padding-right: 3.80rem;
+  padding-right: 6.80rem;
   max-width: 900px;
 }
 
@@ -189,6 +189,18 @@ figure {
   font-family: 'cirka-light';
   font-size: 4vw;
   line-height: 0.924;
+}
+
+.sidenote {
+  position: fixed;
+  font-size: 1rem;
+  font-family: 'GoodSans-Medium';
+  opacity: 0.8;
+  padding-right: 10vw;
+  padding-left: 3.8rem;
+  text-align: left;
+  top: 0;
+  left: 0;
 }
 
 @media only screen and (min-width: 900px) {
@@ -300,61 +312,3 @@ mark {
   background-color: #ffefae;
   z-index: 9999;
 }
-
-/* Pop-up window */
-
-abbr[notetitle] {
-  text-decoration: unset;
-/*    color: blue;*/
-    text-decoration: underline;
-    text-decoration-style: wavy;
-    font-family: HelveticaNeue;
-
-}
-
-#reference
-{
-    text-align: center;
-    color: white;
-    background: black;
-    position: absolute;
-    border-radius: 5px;
-    z-index: 100;
-    padding: 10px;
-    font-family: 'Life';
-}
-
-    #reference:after /* triangle decoration */
-    {
-        width: 0;
-        height: 0;
-        border-left: 10px solid transparent;
-        border-right: 10px solid transparent;
-        border-top: 10px solid #111;
-        content: '';
-        position: absolute;
-        left: 50%;
-        bottom: -10px;
-        margin-left: -10px;
-    }
-
-        #reference.top:after
-        {
-            border-top-color: transparent;
-            border-bottom: 10px solid #111;
-            top: -20px;
-            bottom: auto;
-        }
-
-        #reference.left:after
-        {
-            left: 10px;
-            margin: 0;
-        }
-
-        #reference.right:after
-        {
-            right: 10px;
-            left: auto;
-            margin: 0;
-        }
