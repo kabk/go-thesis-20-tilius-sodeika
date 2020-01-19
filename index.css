@@ -94,8 +94,10 @@ figcaption {
   font-family: 'GoodSans-Medium';
   opacity: 0.8;
   line-height: 1.1rem;
-  padding-top: 0.2vw;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
   padding-left: 0.2vw;
+  margin-bottom: 3vw;
 }
 
 figure {
