@@ -179,6 +179,7 @@ figure {
 
 .container::-webkit-scrollbar {
     display: none;
+  }
 
 .wrapper .container .chapter .chapter-title {
   margin-top: 2.8rem;
