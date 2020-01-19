@@ -50,7 +50,7 @@ html {
 body {
   width: 100%;
   font-family: 'GoodSans-Regular';
-  font-size: 1.5rem;
+  font-size: 2rem;
   line-height: 1.2;
   color: #0f0f0f;
   background-color: inherit;
@@ -101,6 +101,7 @@ figcaption {
 figure {
   padding-top: 1vw;
   padding-bottom: 1vw;
+  background: transparent;
 
 }
 
@@ -120,6 +121,8 @@ figure {
 }
 
 .wrapper p,
+.wrapper h1,
+.wrapper h2,
 .wrapper h3,
 .wrapper h4,
 .wrapper .chapter-body li,
@@ -130,6 +133,7 @@ figure {
   max-width: 900px;
   font-weight: normal;
 }
+
 
 .wrapper .intro {
   position: relative;
@@ -147,11 +151,29 @@ figure {
   font-family: 'cirka-light';
 }
 
+.thesis-title {
+  text-align: center;
+  position: relative;
+  font-size: 8rem;
+  /* letter-spacing: -6px; */
+}
+
 .thesis-title2 {
   position: relative;
   font-family: 'sword2018';
-  top: -9vw;
+  top: -52px;
+  left: -10px;
   color: #ffefae;
+  font-size: 9rem;
+  letter-spacing: -18px;
+}
+
+.thesis-intro {
+  position: relative;
+  top: 50px;
+  text-align: center;
+  font-family: 'GoodSans-Regular';
+  font-size: 2rem;
 }
 
 .wrapper .intro .thesis-title .thesis-title2 {
@@ -233,7 +255,7 @@ figure {
 
 .wrapper img {
   width: 100%;
-  background-color: #0f0f0f;
+  background-color: transparent;
 }
 
 .wrapper iframe {
