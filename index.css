@@ -93,11 +93,12 @@ figcaption {
   font-size: 1rem;
   font-family: 'GoodSans-Medium';
   opacity: 0.8;
+  padding-top: 0.2vw;
 }
 
 figure {
-  margin-top: 1vw;
-  margin-bottom: 1vw;
+  padding-top: 1vw;
+  padding-bottom: 1vw;
 }
 
 .wrapper {
@@ -245,7 +246,7 @@ figure {
 
 
 
-#menu {
+.menu {
   font-family: 'cirka-light';
   font-size: 2rem;
   line-height: 1.2;
