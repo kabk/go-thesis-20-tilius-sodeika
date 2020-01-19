@@ -105,13 +105,25 @@ figure {
 
 }
 
-.abstract a {
+.abstract-paragraph a,
+.abstract-paragraph li
+.abstract-paragraph ul {
   margin-top: 2.8rem;
   margin-bottom: 1.4rem;
   font-family: 'cirka-light';
   font-size: 4vw;
   line-height: 0.924;
   text-decoration: none;
+}
+
+.abstract p {
+  left: -3.8rem;
+  padding-left: inherit;
+}
+
+.abstract figcaption {
+  left: 0px;
+  padding-left: 3.8rem;
 }
 
 .wrapper {
@@ -129,7 +141,7 @@ figure {
 .wrapper nav {
   margin: auto;
   padding-left: 3.80rem;
-  padding-right: 6.80rem;
+  padding-right: 3.80rem;
   max-width: 900px;
   font-weight: normal;
 }
@@ -173,11 +185,12 @@ figure {
 
 .thesis-intro {
   position: relative;
-  top: 145vw;
+  top: 100vw;
   left: 5px;
   text-align: center;
   font-family: 'GoodSans-Regular';
   font-size: 2rem;
+  line-height: 2.1rem;
 }
 
 .wrapper .intro .thesis-title .thesis-title2 {
