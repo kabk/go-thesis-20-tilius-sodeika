@@ -192,12 +192,12 @@ figure {
 }
 
 .sidenote {
-  position: fixed;
+  position: absolute;
   font-size: 1rem;
   font-family: 'GoodSans-Medium';
   opacity: 0.8;
-  padding-right: 10vw;
-  padding-left: 3.8rem;
+  padding-right: 3.8rem;
+  padding-left: 15.8rem;
   text-align: left;
   top: 0;
   left: 0;
