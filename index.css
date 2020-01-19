@@ -152,25 +152,27 @@ figure {
 }
 
 .thesis-title {
+  top: 65px;
   text-align: center;
   position: relative;
-  font-size: 8rem;
+  font-size: 8vw;
   /* letter-spacing: -6px; */
 }
 
 .thesis-title2 {
-  position: relative;
+  position:  inherit;
+  text-align: center;
   font-family: 'sword2018';
-  top: -52px;
+  top: -40px;
   left: -10px;
   color: #ffefae;
-  font-size: 9rem;
-  letter-spacing: -18px;
+  font-size: 9vw;
+  letter-spacing: -3vw;
 }
 
 .thesis-intro {
   position: relative;
-  top: 50px;
+  top: 50vw;
   text-align: center;
   font-family: 'GoodSans-Regular';
   font-size: 2rem;
