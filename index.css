@@ -281,22 +281,20 @@ figure {
   }
 }
 
-@media only screen and (max-width: 900px) {
-  .menu {
-    font-size: 4rem;
-  }
-}
-
-
 .menu {
   font-family: 'cirka-light';
-  font-size: 2rem;
   line-height: 1.2;
+  font-size: 2rem;
   color: #0f0f0f;
   padding-top: 2rem;
   padding-bottom: 2em;
-  /* background-color: #fff; */
   overflow-x: hidden;
+}
+
+@media screen and (max-width: 600px) {
+  .menu {
+    font-size: 4rem;
+  }
 }
 
 mark {
