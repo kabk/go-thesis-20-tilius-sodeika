@@ -221,10 +221,12 @@ figure {
 .wrapper .menu .chapters-list li {
   display: block;
   margin-right: 1em;
+  text-decoration: none;
 }
 
 .wrapper .menu .chapters-list li:last-child {
   margin-right: 0;
+  text-decoration: none;
 }
 
 .wrapper .container {
@@ -241,6 +243,12 @@ figure {
   font-family: 'cirka-light';
   font-size: 4vw;
   line-height: 0.924;
+
+}
+
+.chapter-body ol,
+.chapter-body li {
+list-style-type: none;
 }
 
 .sidenote {
