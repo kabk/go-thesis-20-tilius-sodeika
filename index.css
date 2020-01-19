@@ -152,7 +152,8 @@ figure {
 }
 
 .thesis-title {
-  top: 65px;
+  top: 33px;
+  left: 5px;
   text-align: center;
   position: relative;
   font-size: 8vw;
@@ -164,7 +165,7 @@ figure {
   text-align: center;
   font-family: 'sword2018';
   top: -40px;
-  left: -10px;
+  left: -5px;
   color: #ffefae;
   font-size: 9vw;
   letter-spacing: -3vw;
@@ -172,7 +173,8 @@ figure {
 
 .thesis-intro {
   position: relative;
-  top: 50vw;
+  top: 145vw;
+  left: 5px;
   text-align: center;
   font-family: 'GoodSans-Regular';
   font-size: 2rem;
