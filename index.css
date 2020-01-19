@@ -125,6 +125,10 @@ figure {
   vertical-align: top;
 }
 
+.wrapper::-webkit-scrollbar {
+    display: none;
+  }
+
 .wrapper .intro .title {
   text-align: center;
   font-family: 'cirka-light';
@@ -172,6 +176,9 @@ figure {
 .wrapper .container {
   overflow-x: hidden;
 }
+
+.container::-webkit-scrollbar {
+    display: none;
 
 .wrapper .container .chapter .chapter-title {
   margin-top: 2.8rem;
