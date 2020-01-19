@@ -95,6 +95,11 @@ figcaption {
   opacity: 0.8;
 }
 
+figure {
+  margin-top: 1vw;
+  margin-bottom: 1vw;
+}
+
 .wrapper {
   margin: auto;
   left: 0;
@@ -107,8 +112,8 @@ figcaption {
 .wrapper .chapter-body li,
 .wrapper nav {
   margin: auto;
-  padding-left: 3.92rem;
-  padding-right: 3.92rem;
+  padding-left: 3.80rem;
+  padding-right: 3.80rem;
   max-width: 900px;
 }
 
