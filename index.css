@@ -192,7 +192,7 @@ figure {
 }
 
 .sidenote {
-  position: absolute;
+  position: relative;
   font-size: 1rem;
   font-family: 'GoodSans-Medium';
   opacity: 0.8;
