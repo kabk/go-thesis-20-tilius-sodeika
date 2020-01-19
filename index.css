@@ -93,6 +93,7 @@ figcaption {
   font-size: 1rem;
   font-family: 'GoodSans-Medium';
   opacity: 0.8;
+  line-height: 1.1rem;
   padding-top: 0.2vw;
   padding-left: 0.2vw;
 }
@@ -195,10 +196,12 @@ figure {
   position: relative;
   font-size: 1rem;
   font-family: 'GoodSans-Medium';
-  opacity: 0.8;
+  /* opacity: 0.8; */
+  line-height: 1.1rem;
   padding-right: 3.8rem;
-  padding-left: 15.8rem;
+  padding-left: 3.8rem;
   text-align: left;
+  color: #ffefae;
   top: 0;
   left: 0;
 }
