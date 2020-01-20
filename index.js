@@ -34,13 +34,13 @@ var zerosI = "0000"
 
 var fadeInTime = 200
 var fadeOutTime = 200
-var timeOutTime = 400
+var timeOutTime = 500
 var tapBool = true
 
 
 //IMAGE PRELOAD------------------------------------------
 if (document.images) {
-  for (var i = 0; i < 374; i++) {
+  for (var i = 0; i < 499; i++) {
     if(i<10){
       zerosI = "0000"
     }
@@ -59,7 +59,7 @@ if (document.images) {
 //scroll progression------------------------------------------
 function updateBg(){
   $('#progress').css('height', barHeight)
-  bgN = Math.floor(progress * 374)
+  bgN = Math.floor(progress * 499)
   if(bgN<10){
     zeros = "0000"
   }
