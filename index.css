@@ -378,7 +378,7 @@ mark {
   background-size: cover;
   background-attachment: fixed;
   z-index: -9999;
-  opacity: 0.8;
+  opacity: 0.9;
 }
 
 #progress {
