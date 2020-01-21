@@ -2,6 +2,7 @@
 *:before,
 *:after {
   margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
@@ -90,14 +91,15 @@ a:visited {
 }
 
 figcaption {
-  font-size: 1rem;
+  font-size: 1.2rem;
   font-family: 'GoodSans-Medium';
   opacity: 0.8;
-  line-height: 1.1rem;
+  line-height: 1.4rem;
   padding-top: 1rem;
   padding-bottom: 1rem;
   padding-left: 0.2vw;
   margin-bottom: 3vw;
+  color: #ffefae;
 }
 
 figure {
@@ -117,6 +119,7 @@ figure {
   font-size: 3rem;
   line-height: 0.924;
   text-decoration: none;
+  padding-left: 3.8rem;
 }
 
 .abstract p {
@@ -244,13 +247,24 @@ figure {
   font-family: 'cirka-light';
   font-size: 3rem;
   line-height: 0.924;
+  position: relative;
+  z-index: 1;
 }
 
-/* .chapter-title2 h3 {
+.chapter-title {
+  font-family: 'cirka-light';
+  font-size: 3rem;
+}
+
+.chapter-title2 {
   position: relative;
+  z-index: 0;
   font-family: 'sword2018';
   color: #ffefae;
-} */
+  letter-spacing: -1.5rem;
+  font-size: 4rem;
+  top: -4.5rem;
+}
 
 .chapter-body ol,
 .chapter-body li {
@@ -259,10 +273,10 @@ list-style-type: none;
 
 .sidenote {
   position: relative;
-  font-size: 1rem;
+  font-size: 1.2rem;
   font-family: 'GoodSans-Medium';
   /* opacity: 0.8; */
-  line-height: 1.1rem;
+  line-height: 1.4rem;
   padding-right: 3.8rem;
   padding-left: 3.8rem;
   padding-top: 1.1rem;
@@ -279,7 +293,7 @@ list-style-type: none;
   }
 }
 
-.wrapper .container .chapter .imageWrapper {
+.imageWrapper {
   padding-left: 3.92rem;
   padding-right: 3.92rem;
   margin: auto;
