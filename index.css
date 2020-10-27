@@ -45,6 +45,13 @@
 @font-face {
   font-style: normal;
   font-weight: normal;
+  font-family: 'Cirka-Bold';
+  src: url(typefaces/cirka-Bold.woff) format("woff"), url(../typefaces/cirka-Bold.otf) format("opentype");
+}
+
+@font-face {
+  font-style: normal;
+  font-weight: normal;
   font-family: 'CivilitateTrialV0.2-Hairline';
   src: url(typefaces/CivilitateTrialV0.2-Hairline.woff) format("woff"), url(../typefaces/CivilitateTrialV0.2-Hairline.otf) format("opentype");
 }
@@ -131,7 +138,7 @@ figure {
   text-align: left;
   font-family: 'cirka-light';
   font-size: 3rem;
-  line-height: 0.924;
+  line-height: 1.1;
   text-decoration: none;
   padding-left: 3.8rem;
 }
@@ -260,7 +267,7 @@ figure {
   margin-bottom: 1.4rem;
   font-family: 'cirka-light';
   font-size: 3rem;
-  line-height: 0.924;
+  line-height: 1.1;
   position: relative;
   z-index: 1;
 }
@@ -386,7 +393,7 @@ list-style-type: none;
 }
 
 mark {
-  font-family: 'GoodSans-Thin';
+  font-family: 'Cirka-Bold';
   font-size: inherit;
   line-height: inherit;
   color: #000000;
