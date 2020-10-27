@@ -16,6 +16,20 @@
 @font-face {
   font-style: normal;
   font-weight: normal;
+  font-family: 'GoodSans-Thin';
+  src: url(typefaces/GoodSans-Thin.woff) format("woff"), url(../typefaces/GoodSans-Thin.otf) format("opentype");
+}
+
+@font-face {
+  font-style: normal;
+  font-weight: normal;
+  font-family: 'GoodSans-Light';
+  src: url(typefaces/GoodSans-Light.woff) format("woff"), url(../typefaces/GoodSans-Light.otf) format("opentype");
+}
+
+@font-face {
+  font-style: normal;
+  font-weight: normal;
   font-family: 'GoodSans-Medium';
   src: url(typefaces/GoodSans-Medium.woff) format("woff"), url(../typefaces/GoodSans-Medium.otf) format("opentype");
 }
@@ -372,7 +386,8 @@ list-style-type: none;
 }
 
 mark {
-  font-family: 'GoodSans-Regular';
+  font-family: 'GoodSans-Thin';
+  transform: skew(.312rad);
   font-size: inherit;
   line-height: inherit;
   color: #000000;
